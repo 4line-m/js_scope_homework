@@ -60,6 +60,13 @@
 
 // Episode 4
 //
+//Four suspect variables are created and assigned.
+// Variable 'suspectThree' is reassigned (from Keith) to 'Harvey' within the 'allSuspects' function.
+//Result: Suspects include: Jay, Val, Harvey, Rick
+// Suspect three is:Keith
+//
+//
+//
 // var suspectOne = 'Jay';
 // var suspectTwo = 'Val';
 // var suspectThree = 'Keith';
@@ -77,7 +84,13 @@
 
 
 // Episode 5
-
+//
+//'detective' object was created.
+//Funtion 'printName' is declared/created but not called.
+//Function detectiveInfo in created and withing its scope the detective name is changed.
+//funtion 'printName' is finally called.
+//Result: Poirot.
+// 
 // var detective = {
 //   name : 'Ace Ventura',
 //   pet : 'monkey'
