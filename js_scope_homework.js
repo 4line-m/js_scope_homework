@@ -1,22 +1,26 @@
 // Episode 1
-
-//Variable name created/assigned to the name Keith.
-//Function printName created. This function will print the string 'My name is ' plus the value of the variable name.
+//
+//Variable 'name' created/assigned to the name Keith.
+//Function 'printName' created. This function will print the string 'My name is ' plus the value of the variable 'name'.
 //Result: My name is Keith
-
-var name = 'Keith';
-
-var printName = function() {
-  console.log('My name is ' + name );
-};
-
-printName();
+//
+// var name = 'Keith';
+//
+// var printName = function() {
+//   console.log('My name is ' + name );
+// };
+//
+// printName();
 
 
 
 
 // Episode 2
-
+//
+//Variable 'score' created globally + assigned value of 5.
+//Function 'result' created and 'score' variable created + reassigned value of 3. This function returns the value of the score variable created within this function's scope.
+//Result: 3
+//
 // score = 5;
 //
 // var result = function() {
@@ -30,7 +34,16 @@ printName();
 
 
 // Episode 3
-
+//
+//Array 'myAnimals' created.
+//Function 'listAnimals' created and within its scope another the myAnimals array is reassigned.
+//The function is looping through the array and returns both key/index + value.
+//Result:
+//0: Ducks
+// 1: Dogs
+// 2: Lions
+//
+//
 // var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 //
 // var listAnimals = function() {
